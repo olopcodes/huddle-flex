@@ -64,6 +64,11 @@
   align-items: center;
 }
 
+.milestones .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .milestones__details {
   display: flex;
   flex-flow: column wrap;
@@ -81,20 +86,34 @@
 
 .benefits__item {
   position: relative;
-  margin-bottom: 6em;
-  padding: 4em 1.5em;
+  margin-bottom: 8em;
+  padding: 5em 2em;
 }
-.benefits--curve .curve--top {
+.benefits .curve {
   position: absolute;
-  top: -4rem;
-  left: 0;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  left: 0;
 }
-.benefits--curve .curve--bottom {
-  position: absolute;
-  bottom: -4rem;
-  left: 0;
-  width: 100%;
+.benefits .curve--top--1 {
+  top: -10rem;
+}
+.benefits .curve--bottom--1 {
+  bottom: -10rem;
+}
+.benefits__item--1 .curve--top--1 {
+  background-image: url(../images/bg-section-top-mobile-1.svg);
+}
+.benefits__item--1 .curve--bottom--1 {
+  background-image: url(../images/bg-section-bottom-mobile-1.svg);
+}
+.benefits__item--3 .curve--top--1 {
+  background-image: url(../images/bg-section-top-mobile-2.svg);
+}
+.benefits__item--3 .curve--bottom--1 {
+  background-image: url(../images/bg-section-bottom-mobile-2.svg);
 }
 .benefits__list {
   list-style: none;
@@ -116,8 +135,14 @@
 }
 .footer__bg {
   position: absolute;
+  width: 100%;
+  background-image: url("../images/bg-footer-top-mobile.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   left: 0;
-  top: -3rem;
+  top: -5rem;
+  height: 5rem;
 }
 .footer__company-info {
   padding: 2em 0;
@@ -200,8 +225,12 @@ img {
 }
 
 section {
-  padding: 3em 0;
+  padding: 6em 0;
   text-align: center;
+}
+
+.section--community {
+  margin-bottom: 10em;
 }
 
 .container {
