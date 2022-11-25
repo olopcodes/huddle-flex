@@ -30,7 +30,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header__container">
         <div class="logo">
           <img src="./images/logo.svg" alt="huddle logo image" />
         </div>
@@ -81,51 +81,53 @@
         <li class="benefits__item benefits__item--1 benefits--curve">
           <div class="curve curve--top--1"></div>
           <div class="curve curve--bottom--1"></div>
-          <img
-            src="./images/illustration-grow-together.svg"
-            alt="two people standing together"
-          />
-          <h3 class="benefits__heading">Grow Together</h3>
-          <p class="benefits__text">
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
-
-          <div class="curve curve--bottom">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-              <path
-                fill="#F5FAFF"
-                fill-opacity="1"
-                d="M0,32L80,26.7C160,21,320,11,480,48C640,85,800,171,960,192C1120,213,1280,171,1360,149.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-              ></path>
-            </svg>
+          <div class="benefits__img-container">
+            <img
+              src="./images/illustration-grow-together.svg"
+              alt="two people standing together"
+            />
+          </div>
+          <div class="benefits__text-container">
+            <h3 class="benefits__heading">Grow Together</h3>
+            <p class="benefits__text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
           </div>
         </li>
 
         <li class="benefits__item">
-          <img
-            src="./images/illustration-flowing-conversation.svg"
-            alt="conversations on a screen"
-          />
-          <h3 class="benefits__heading">Flowing Conversations</h3>
-          <p class="benefits__text">
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
+          <div class="benefits__img-container">
+            <img
+              src="./images/illustration-flowing-conversation.svg"
+              alt="conversations on a screen"
+            />
+          </div>
+          <div class="benefits__text-container">
+            <h3 class="benefits__heading">Flowing Conversations</h3>
+            <p class="benefits__text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
         </li>
 
         <li class="benefits__item benefits__item--3 benefits--curve">
           <div class="curve curve--top--1"></div>
           <div class="curve curve--bottom--1"></div>
-          <img src="./images/illustration-your-users.svg" alt="communities" />
-          <h3 class="benefits__heading">Your Users</h3>
-          <p class="benefits__text">
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
+          <div class="benefits__img-container">
+            <img src="./images/illustration-your-users.svg" alt="communities" />
+          </div>
+          <div class="benefits__text-container">
+            <h3 class="benefits__heading">Your Users</h3>
+            <p class="benefits__text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
         </li>
       </ul>
     </section>
@@ -139,7 +141,7 @@
     <footer class="footer">
       <div class="footer__bg"></div>
 
-      <div class="container">
+      <div class="footer__container">
         <div class="footer__company-info">
           <p class="footer__logo">
             <i class="fa-regular fa-message"></i>
